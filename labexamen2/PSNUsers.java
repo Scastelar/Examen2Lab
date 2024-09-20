@@ -229,7 +229,7 @@ public class PSNUsers {
                         /*
                         texto += "\n - Trofeo " + trophyType + " de " + trophyGame + " llamado " + trophyName + " el ["
                                 + new Date(date) + "]\n";
-                                */
+                         */
                     }
                 }
                 texto += "\n\n";

@@ -108,7 +108,7 @@ public class Main extends JFrame implements ActionListener {
                 }
                 String username = usuariosList.getSelectedValue();
                 psn.deactivateUser(username);
-                usuariosModel.removeElement(username); // Remove the user from the JList
+                usuariosModel.removeElement(username); 
                 actualizar();
                 area.setText("Este Usuario fue desactivado");
             } catch (IOException ex) {
